@@ -1,0 +1,34 @@
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: #434455;
+  background: #fff;
+  width: 1440px;
+  height: 3300px;
+  box-sizing: border-box;
+}
+body a {
+  text-decoration: none;
+  color: inherit;
+}
+body ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* header */
+.top-line {
+  width: 1440px;
+  height: 72px;
+  box-sizing: border-box;
+  padding-left: 0;
+}
+.logo {
+  width: 115px;
+  height: 24px;
+  padding-left: 156px;
+  padding-top: 24px;
+  padding-right: 76px;
+  padding-bottom: 24;
+  box-sizing: border-box;
+}
