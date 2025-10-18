@@ -36,36 +36,14 @@ ul {
 .menu-studio:hover {
   color: #404bbf;
 }
+.menu-studio:focus {
+  color: #404bbf;
+}
 .menu-studio:active {
+  color: #404bbf;
   text-decoration: underline;
-  color: #404bbf;
 }
-.menu-portfolio {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.menu-portfolio:hover {
-  color: #404bbf;
-}
-.menu-portfolio:focus {
-  color: #404bbf;
-}
-.menu-contacts {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 150%;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.menu-contacts:hover {
-  color: #404bbf;
-}
-.menu-contacts:focus {
-  color: #404bbf;
-}
+
 .header-address {
   font-style: normal;
 }
