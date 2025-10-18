@@ -68,17 +68,30 @@ ul {
 .header-address {
   font-style: normal;
 }
-.address-item {
+.address-mail {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
 }
-.address-item:hover {
+.address-mail:hover {
   color: #404bbf;
 }
-.address-item:focus {
+.address-mail:focus {
+  color: #404bbf;
+}
+.address-tel {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.address-tel:hover {
+  color: #404bbf;
+}
+.address-tel:focus {
   color: #404bbf;
 }
 /* #endregion Header Top Line */
