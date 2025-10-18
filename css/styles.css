@@ -11,10 +11,7 @@ ul {
   list-style: none;
 }
 
-/* Header Top Line */
-.header-top-line {
-  border-bottom: 1px solid #e7e9fc;
-}
+/* #region Header Top Line */
 
 .top-logo {
   font-family: "Raleway", sans-serif;
@@ -29,6 +26,19 @@ ul {
   color: #2e2f42;
 }
 
+.top-menu-studio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.top-menu-studio:hover {
+  color: #404bbf;
+}
+.top-menu-studio:active {
+  text-decoration: underline;
+}
 .top-menu-list {
   font-weight: 500;
   font-size: 16px;
@@ -36,15 +46,25 @@ ul {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.address {
+.top-menu-list:hover {
+  color: #404bbf;
+}
+.header-address {
+  font-style: normal;
+}
+.address-item {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
 }
+.address-item:hover {
+  color: #404bbf;
+}
+/* #endregion Header Top Line */
 
-/* Section 1   Effective Solutions for Your Business */
+/* #region Section 1   Effective Solutions for Your Business */
 
 .title-solutions {
   font-weight: 700;
@@ -65,16 +85,25 @@ ul {
   text-align: center;
 }
 .button-solutions {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.04em;
   cursor: pointer;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  color: #fff;
   background: #4d5ae5;
 }
+.button-solutions:hover {
+  background: #404bbf;
+}
+.button-solutions:focus {
+  background: #404bbf;
+}
 
-/*  Section 2   Advantage  */
+/* #endregion Section 1   Effective Solutions for Your Business */
+
+/* #region Section 2   Advantage  */
 
 .advantage-title {
   font-weight: 500;
@@ -90,8 +119,9 @@ ul {
   letter-spacing: 0.02em;
   color: #434455;
 }
+/* #endregion Section 2   Advantage  */
 
-/*  Section 3   Our Team  */
+/* #region Section 3   Our Team  */
 
 .our-team {
   background: #f4f4fd;
@@ -103,10 +133,10 @@ ul {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .team-list {
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
 }
 .team-name {
   font-weight: 500;
@@ -124,16 +154,18 @@ ul {
   text-align: center;
   color: #434455;
 }
+/* #endregion Section 3   Our Team  */
 
-/* Section 4   Our Portfolio */
+/* #region Section 4   Our Portfolio */
 
-.Portfolio-title {
+.portfolio-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 111%;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .portfolio-products {
   font-weight: 500;
@@ -149,10 +181,11 @@ ul {
   letter-spacing: 0.02em;
   color: #434455;
 }
+/* #endregion Section 4   Our Portfolio */
 
-/* Footer */
+/* #region Footer */
 
-.Footer-title {
+.footer-title {
   background: #2e2f42;
 }
 .footer-text {
@@ -165,3 +198,4 @@ ul {
 .footer-studio {
   color: #f4f4fd;
 }
+/* #endregion Footer */
