@@ -26,44 +26,44 @@ ul {
   color: #2e2f42;
 }
 
-.top-menu-studio {
+.menu-studio {
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.top-menu-studio:hover {
+.menu-studio:hover {
   color: #404bbf;
 }
-.top-menu-studio:active {
+.menu-studio:active {
   text-decoration: underline;
   color: #404bbf;
 }
-.top-menu-portfolio {
+.menu-portfolio {
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.top-menu-portfolio:hover {
+.menu-portfolio:hover {
   color: #404bbf;
 }
-.top-menu-portfolio:focus {
+.menu-portfolio:focus {
   color: #404bbf;
 }
-.top-menu-contacts {
+.menu-contacts {
   font-weight: 500;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.top-menu-contacts:hover {
+.menu-contacts:hover {
   color: #404bbf;
 }
-.top-menu-contacts:focus {
+.menu-contacts:focus {
   color: #404bbf;
 }
 .header-address {
